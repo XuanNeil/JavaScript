@@ -63,4 +63,4 @@ const arrayToObject = (itemList) => {
 const findMin = (numberList) => {
     return numberList.reduce((minNumber, number)=> minNumber < number ? minNumber : number , numberList[0]);
 }
-console.log(findMin([1, 2, 3, 4, 5, 0]));
+// console.log(findMin([1, 2, 3, 4, 5, 0]));
